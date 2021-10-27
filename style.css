@@ -1,0 +1,114 @@
+body{
+    background-color: black;
+}
+
+.list-menu{
+    margin-top: 10px;
+    margin-left: 30px;
+    list-style-type: none;
+}
+
+.list-menu li {
+    display: flex;
+}
+.list-menu li img{
+    width: 38px;
+    margin-bottom: 10px;
+}
+
+.list-menu span {
+    color: whitesmoke;
+    font-size: 30px;
+    padding-right: 20px;
+}
+
+.list-menu p{
+    font-size: 20px;
+    font-weight: bold;
+    color: whitesmoke;
+ }
+ 
+ .bMenu{
+    border-radius: 30px;
+    display: inline-flex;
+    border: none;
+    background-color: black;
+    padding: 5px;
+ }
+
+ .bMenu:hover{
+    background-color: rgb(49, 49, 49);
+    padding-right: 20px;
+    
+}
+
+.tweet{
+    color: white;
+    font-weight: 900;
+    border-radius: 30px;
+    width: 85%;
+    height: 50px;
+    border: none;
+    background-color: #1D9BF0 !important;
+}
+
+.div1{
+    width: 10%;
+}
+
+.div2{
+    border-color: rgb(49, 49, 49);
+    height:100%;
+    
+}
+
+.pageName{
+    color: whitesmoke;
+    padding: 10px;
+}
+
+.profile{
+    width: 60px;
+    border-radius: 50% ;
+    padding-right: 15px;
+}
+.post{
+    display: flex;
+    padding-bottom: 50px;
+}
+
+#post{
+    background-color: black;
+    color:rgb(49, 49, 49);
+    border-style: none;
+}
+
+.timeLine{
+    height: 100%;
+}
+.div3{
+  
+}
+.form-control{
+    background-color: rgb(49, 49, 49);
+    margin-top: 5px;
+    border-radius: 30px;
+}
+
+.whats{
+    height: 98%;
+    background-color: rgb(49, 49, 49) ;
+    color: whitesmoke;
+    border-radius: 15px;
+}
+
+.news{
+    height: 20%;
+    background-color: rgb(49, 49, 49) ;
+}
+
+.news:hover{
+    background-color: rgb(100, 100, 100);
+    cursor: pointer;
+    border-radius: 5px;
+}
