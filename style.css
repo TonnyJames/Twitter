@@ -49,16 +49,21 @@ body{
     width: 85%;
     height: 50px;
     border: none;
-    background-color: #1D9BF0 !important;
+    background-color: #1D9BF0 ;
+}
+
+.tweet:hover{
+    background-color: #13649b ;
 }
 
 .div1{
     width: 10%;
+    scroll-behavior: auto;
 }
 
 .div2{
     border-color: rgb(49, 49, 49);
-    height:100%;
+    scroll-behavior: auto;
     
 }
 
@@ -87,7 +92,7 @@ body{
     height: 100%;
 }
 .div3{
-  
+    scroll-behavior: auto;
 }
 .form-control{
     background-color: rgb(49, 49, 49);
@@ -102,13 +107,23 @@ body{
     border-radius: 15px;
 }
 
+.whats h5{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
 .news{
-    height: 20%;
+    margin-left: 0;
     background-color: rgb(49, 49, 49) ;
 }
 
-.news:hover{
-    background-color: rgb(100, 100, 100);
+.news img:hover{
+    /* background-color: rgb(100, 100, 100); */
+    opacity: 60%;
     cursor: pointer;
     border-radius: 5px;
+}
+
+.news img{
+    width: 100%;
 }
